@@ -73,7 +73,23 @@
                 </div>
             </div>
         </div >
-        <script src="js/main.js"></script>
+        <!-- <script src="js/main.js"></script> -->
+        <script>
+            var menuList = document.getElementById('menuList');
+            menuList.style.maxHeight = "0px";
+            function togglemenu(){
+
+                if(menuList.style.maxHeight == "0px")
+                    {
+                        menuList.style.maxHeight = "130px";
+                    }
+                else
+                    {
+                        menuList.style.maxHeight = "0px";
+                    }
+
+            }
+        </script>
         <script src="https://kit.fontawesome.com/7ca426dfc6.js" crossorigin="anonymous"></script>
     </body>
 </html>
